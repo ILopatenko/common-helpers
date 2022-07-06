@@ -1,0 +1,23 @@
+{
+  "name": "common-helpers",
+  "version": "1.0.0",
+  "description": "Common Local Helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "helper": "npx cypress run --spec 'cypress/support/page-objects/local-helper/*spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ILopatenko/common-helpers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ILopatenko/common-helpers/issues"
+  },
+  "homepage": "https://github.com/ILopatenko/common-helpers#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
